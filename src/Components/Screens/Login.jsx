@@ -47,7 +47,7 @@ function Login() {
       <Container>
         <LeftContainer>
           <HeaderContainer></HeaderContainer>
-          <MainHeading> Good food, Good mood</MainHeading>
+          <MainHeading> Good food</MainHeading>
         </LeftContainer>
         <RightContainer>
           <LoginContainer>

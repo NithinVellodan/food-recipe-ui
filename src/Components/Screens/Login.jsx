@@ -47,7 +47,7 @@ function Login() {
       <Container>
         <LeftContainer>
           <HeaderContainer></HeaderContainer>
-          <MainHeading> Good food</MainHeading>
+          <MainHeading> Good food, Good mood</MainHeading>
         </LeftContainer>
         <RightContainer>
           <LoginContainer>
@@ -93,23 +93,25 @@ const LeftContainer = styled.div`
   width: 55%;
   padding: 40px 70px 70px;
 `;
-const HeaderContainer = styled.div``;
+const HeaderContainer = styled.div`
+  color: rgb(155, 209, 84);
+`;
 
 const MainHeading = styled.h1`
   font-size: 100px;
   font-style: italic;
-  color:rgb(155, 209, 84) ;
+  color: rgb(155, 209, 84);
   margin: 0 auto;
   line-height: 1.4em;
 `;
 const RightContainer = styled.div`
   background: rgb(155, 209, 84);
-  width: 45%;
+  width: 50%;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   border-radius: 20px;
-  padding: 0 70px 70px;
+  padding: 0px 68px 240px;
 `;
 const LoginContainer = styled.div`
   padding-bottom: 70px;
@@ -171,7 +173,7 @@ const ButtonContainer = styled.div`
 `;
 const ErrorMessage = styled.p`
   font-size: 17px;
-  color: rgb(155, 209, 84);;
+  color: rgb(155, 209, 84);
   margin-bottom: 25px;
   text-align: center;
 `;

@@ -106,7 +106,7 @@ const MainHeading = styled.h1`
 `;
 const RightContainer = styled.div`
   background: rgb(155, 209, 84);
-  width: 50%;
+  width: 60%;
   display: flex;
   align-items: flex-end;
   justify-content: center;

@@ -61,7 +61,7 @@ const Image = styled.img`
 `;
 const Button = styled.button`
   padding: 15px 48px;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 600;
   display: inline-block;
   background: black;

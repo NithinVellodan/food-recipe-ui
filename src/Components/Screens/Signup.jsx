@@ -54,9 +54,7 @@ function Signup() {
       <Container>
         <LeftContainer>
           <HeaderContainer></HeaderContainer>
-          <MainHeading>
-            Explore the best food recipes from diffrent publishers{" "}
-          </MainHeading>
+          <MainHeading>Good food, Good mood </MainHeading>
         </LeftContainer>
         <RightContainer>
           <LoginContainer>
@@ -115,12 +113,12 @@ const HeaderContainer = styled.div``;
 const MainHeading = styled.h1`
   font-size: 50px;
   font-style: italic;
-  color: #ff6600;
+  color: rgb(155, 209, 84);
   margin-top: 300px;
   line-height: 1.4em;
 `;
 const RightContainer = styled.div`
-  background: rgba(255, 102, 0, 0.117);
+  background: rgb(155, 209, 84);
   width: 45%;
   display: flex;
   align-items: flex-end;
@@ -163,11 +161,11 @@ const LoginButton = styled(Link)`
   display: flex;
   justify-content: flex-end;
   margin-bottom: 25px;
-  color: rgb(247, 1, 66);
+  color: black;
   font-size: 20px;
 `;
 const SubmitButton = styled.button`
-  background: rgb(247, 1, 66);
+  background: black;
   transition: background-color 0.5s ease 0s;
   border: 0;
   outline: 0;

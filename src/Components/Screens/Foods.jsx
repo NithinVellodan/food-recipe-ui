@@ -123,13 +123,14 @@ const InnerContainer = styled.div`
   margin: 0 auto;
 `;
 const Heading = styled.h1`
-  font-size: 30px;
+  font-size: 50px;
   margin-bottom: 30px;
   text-align: left;
+ 
 `;
 const SubHeading = styled.h5`
-  font-size: 18px;
-  color: rgb(229, 229, 49);
+  font-size: 22px;
+  color: black;
   margin-bottom: 50px;
   text-align: left;
 `;

@@ -64,13 +64,13 @@ const Button = styled.button`
   font-size: 19px;
   font-weight: 600;
   display: inline-block;
-  background: #f70142;
+  background: black;
   transition: background-color ease 0.5s;
   color: #fff;
   border: none;
   border-radius: 5px;
   &:hover {
-    background-color: black;
+    background-color: red;
   }
   a {
     color: #fff;
